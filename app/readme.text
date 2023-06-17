@@ -1,0 +1,13 @@
+/*
+  made by: mohamed seabeai mohamed
+*/
+
+
+
+.htaccess in main folder mavc_oop/
+is for make ourwebsite go directly in public folder and (search) for index.php in it
+
+
+.htaccess in folder mavc_oop/public
+is for make website get url from old shape post.php?edit=edit.php&id=2
+to this shape   post/edit/2

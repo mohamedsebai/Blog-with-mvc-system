@@ -1,0 +1,30 @@
+password protected derictory arrogantm.com
+
+mohamedseabeai
+Moh12()*
+
+
+
+every controller have extends framewrok class and has a model
+you can use framework class and the mode in view that deal within the controller
+
+example
+controller
+
+class home extends Framework{
+
+  public function __construct(){
+    $this->auth = $this->model('auth');
+  }
+
+  public function index(){
+
+    $data = [];
+    return $this->view('main_page/home', $data);
+  }
+
+}
+
+that's mean you can use
+  1 - auth model in home view with out include the model
+  2 - framework class you can use all method in home view from him without include the class
